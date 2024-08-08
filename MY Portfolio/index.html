@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark  fixed-top">
+        <div class="container-fluid">
+            
+          <a class="navbar-brand" href="#"><h3>My Portfolio </h3></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <div class="main1 text-light">
+                    <h5  onclick="scrollToTop()">About</h5></div>
+                </li>
+                <li class="nav-item text-light">
+                    <div class="main2">
+
+                    <h5 onclick="ScrollToTop()">Skills</h5></div>
+                    <div class="hide2">
+
+                        <h5 onclick="scrollTo_hide2()">Skills</h5></div>
+                </li>
+                <li class="nav-item dropdown">
+                    <div class="main3 text-light">
+
+                    <h5 onclick="scrollTotop()">Experience</h5></div>
+                    <div class="hide3 text-light">
+
+                        <h5 onclick="scrollTo_hide3()">Experience</h5></div>
+                        <div class="hide5 text-light">
+
+                            <h5 onclick="scrollTo_hide5()">Experience</h5></div>
+                </li>
+                <li>
+                    <div class="main4 text-light">
+
+                <h5 onclick="scrollTo_Top()" class="non">Contact</h5></div>
+                <div class="hide4 text-light">
+
+                    <h5 onclick="scrollTo_hide4()">Contact</h5></div>
+                    <div class="hide6 text-light">
+
+                        <h5 onclick="scrollTo_hide6()">Contact</h5></div>
+</li>
+                          
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="backimg">
+        <img src="image/back img.webp">
+    </div>
+
+  <div id="myElement" ><img  src="image/arslan img.jpg" class="rounded-circle circleimg" ></div>
+
+    <div class="Contant text-light">    
+
+        <h1 onclick="scrollToTop()">Arslan Ali</h1>
+        <h5 >Web Developer</h5>
+    </div>
+        <div class="btndiv ">
+     <button type="button" class="but text-light" id="btn" onclick="scrollTo_butt()">Hire me</button>
+     <button type="button" class="but text-light" id="bttn" onclick="Scroll_button()">Hire me</button>
+     <a href="image/Arslan-CV.jpg" download><button type="button" class="but text-light" id="butt">Download CV</button></a>
+
+        </div>
+
+    <div class="icons d-flex justify-content-center">
+        <div class="circle rounded-circle  d-flex align-items-center justify-content-center circleicon"><a href="mailto:muhammadarslanrajput12@gmail.com"><img
+                src="icons/google icon.png" alt="google icon"></a></div>
+        <div class="circle rounded-circle  d-flex align-items-center justify-content-center circleicon"><a href="https://www.facebook.com/shansha.irfan.7"><img
+                src="icons/facebook icon.png" alt="facebook icon"></a></div>
+        <div class="circle rounded-circle  d-flex align-items-center justify-content-center circleicon"><a href="https://www.linkedin.com/in/arslan-ali-5a66112bb/"><img
+                src="icons/linkdin icon.png" alt="linkdin icon"></a></div>
+        <div class="circle rounded-circle d-flex align-items-center justify-content-center circleicon"><a href="https://github.com/arslanai"><img
+                src="icons/github icon.png" alt="github icon"></a></div>
+    </div>
+
+
+    <div class="content_contaner d-flex justify-content-between bg-light-subtle border  ">
+        <div class="About">
+            <h2>About</h2>
+            <p>Professional Web DeveloperAs a highly motivated and dedicated professional with a passion for technology
+                and web development, I have a solid foundation in HTML, CSS, JavaScript , Typescript , GitHub and
+                Bootstrap. With a strong understanding of web development principles and a keen eye for detail, I am
+                committed to delivering exceptional results and building innovative web solutions.</p>
+        </div></div>
+        <table class="infor">
+            <th>
+                <h3 class="head ">Basic Information</h3>
+            </th>
+            </tr>
+            <tr>
+                <td class="tableData">AGE:</td>
+                <p class="age">18</p>
+            </tr>
+            <tr>
+                <td class="tableData">EMAIL:</td>
+                <p class="mail">muhammadarslanrajput12@gmail.com</p>
+            </tr>
+            <tr>
+                <td class="tableData">CONTACT NO:</td>
+                <p class="num">03099875745</p>
+            </tr>
+            <tr>
+                <td class="tableData">ADDRESS:</td>
+                <p class="Addr">Burns Road Karachi</p>
+            </tr>
+        </table>
+    </div>
+
+    <h1 class="skihead">Professional Skills </h1>
+
+    <div class="moreline">
+        <table class="tabl">
+            <tr class="qurey1">
+                <td>HTML </td>
+                <p class="persen1">90%</p>
+                <td>CSS</td>
+                <p class="persen2">85%</p>
+            </tr>
+            <tr class="qurey2">
+                <td >JavaScript </td>
+                <p class="persen3">70%</p>
+                <td>Typescript</td>
+                <p class="persen4">68%</p>
+            </tr>
+            <tr class="qurey3">
+                <td>Bootstrap</td>
+                <p class="persen5">65%</p>
+                <td>GitHub</td>
+                <p class="persen6">60%</p>
+            </tr>
+            <tr class="qurey4">
+                <td>Ract JS</td>
+                <p class="persen7">30%</p>
+                <td>Next Js</td>
+                <p class="persen8">30%</p>
+            </tr>
+
+        </table>
+
+
+          
+    <div class="line1">
+        <div class="lin1"></div>
+    </div>
+
+    <div class="line2">
+        <div class="lin2"></div>
+    </div>
+    <div class="line3">
+        <div class="lin3"></div>
+    </div>
+    <div class="line4">
+        <div class="lin4"></div>
+    </div>
+    <div class="line5">
+        <div class="lin5"></div>
+    </div>
+
+    <div class="line6">
+        <div class="lin6"></div>
+    </div>
+    <div class="line7">
+        <div class="lin7"></div>
+    </div>
+    <div class="line8">
+        <div class="lin8"></div>
+    </div>
+
+</div>
+
+<h1 class="skihead" >Work Experience</h1>
+<div class="midpara text-light">
+    <h6>December 2023- Present</h6>
+    <h5>Creativem</h5></div>
+    <div class="para2">
+    <h4>Web and Mobile App Developer</h4>
+    <p>I am currently enrolled in the Saylani Mass IT Training Program, which I started in December 2023 and will continue until July 2024. As a part-time student, I have been learning various skills, including HTML5, Cascading Style Sheets (CSS), and five additional skills. The program is being conducted on-site in Karachi, Sindh, Pakistan.
+    </p>
+    </div>
+    <div class="midpara2 text-light">
+    <h5 >Front End Developer</h5>
+</div>
+    <div class="para3">
+    <h4>Expert Front End Developer </h4>
+    <p>As a highly motivated and dedicated professional with a passion for technology and web development, I have a solid foundation in HTML, CSS, JavaScript , Typescript , GitHub and Bootstrap. With a strong understanding of web development principles and a keen eye for detail, I am committed to delivering exceptional results and building innovative web solutions.</p>
+      </div>
+<h1 class="Eduhead">Education</h1>
+      <div class="midpara4 text-light">
+        <h5 >School</h5>
+    </div>
+        <div class="para4">
+        <h4>Bio Science</h4>
+        <p>
+             Matriculation:<br/> Metro polis Government Boys Secondary School, Karachi
+             <br/>Completed in [2024]
+            </p>
+          </div>
+          <div class="midpara5 text-light">
+            <h5 >Collage</h5>
+        </div>
+            <div class="para5">
+            <h4>Computer Science</h4>
+            <p>
+                Under intermediate 
+                </p>
+              </div>
+
+              <div class="ContDiv">
+
+<img class="location_img" src="image/location img.jpg" alt="location img"></div>
+  
+  <div class="lastpara"><h1 class="conthead">Contact Me</h1>
+ <table>  
+<tr>
+    <td><h6>Phone:</h6></td>
+    <p  class="phonum">03099875745</p>
+</tr>
+<tr>
+    <td><h6>Email:</h6></td>
+    <p class="Email">muhammadarslanrajput12@gmail.com</p>
+</tr>
+<tr>
+    <td><h6>Address:</h6></td>
+    <p class="Address">Burns Road karachi</p>
+</tr>
+</table>
+</div>
+
+<div class="footer">
+    <div class="moreimg">
+<a href="mailto:muhammadarslanrajput12@gmail.com"><img src="icons/google icon.png" alt="google icon"/></a>
+<a href="https://www.facebook.com/shansha.irfan.7"><img src="icons/facebook icon.png" alt="facebook icon"/></a>
+<a href="https://www.linkedin.com/in/arslan-ali-5a66112bb/"><img src="icons/linkdin icon.png" alt="linkdin icon"/></a>
+<a href="https://github.com/arslanai"><img src="icons/github icon.png" alt="github icon"/></a>
+
+</div>
+</div>
+<div class="headpara">
+    <h2 class="heading">Arslan Ali</h2>
+    <p>© Creative CV. All rights reserved.
+    </p>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+  
+ <script src="script.js"></script>
+</body> 
+</html>
